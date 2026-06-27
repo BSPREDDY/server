@@ -11,9 +11,8 @@ connectDB();
 // Middleware
 app.use(cors({
     origin: [
-        process.env.CLIENT_URL || "http://localhost:5173",
-        process.env.ADMIN_URL || "http://localhost:5174",
-        process.env.MANAGER_URL || "http://localhost:5175"
+        process.env.CLIENT_URL || "http://bhavanatss.vercel.app",
+        process.env.ADMIN_URL || "http://admin-bhavanatss.vercel.app",
     ],
     credentials: true
 }));
